@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "eopj",
+  "version": "${version}",
+  "name": "EatOldPictireJiang",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/Thund/untitled2"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/eopj/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "top.eopj.client.EatOldPictireJiangClient"
+    ],
+    "main": [
+      "top.eopj.EatOldPictireJiang"
+    ]
+  },
+  "mixins": [
+    "eopj.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
