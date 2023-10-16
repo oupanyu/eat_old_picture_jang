@@ -4,6 +4,7 @@
   "package": "top.eopj.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "entity.MobEntityMixin"
   ],
   "client": [
   ],

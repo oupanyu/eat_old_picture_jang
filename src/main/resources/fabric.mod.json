@@ -3,10 +3,10 @@
   "id": "eopj",
   "version": "${version}",
   "name": "EatOldPictireJiang",
-  "description": "",
-  "authors": [],
+  "description": "我要吃图酱，快点，给我吃，我要！移植自B站幽蓝TV的基岩版addon By B站皮宇轩",
+  "authors": ["B站皮宇轩"],
   "contact": {
-    "repo": "https://github.com/Thund/untitled2"
+    "homepage": "https://space.bilibili.com/395891196"
   },
   "license": "All-Rights-Reserved",
   "icon": "assets/eopj/icon.png",
@@ -23,6 +23,7 @@
     "eopj.mixins.json"
   ],
   "depends": {
+    "fabric-api": "*",
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
     "minecraft": "${minecraft_version}"

@@ -17,14 +17,25 @@ import static top.eopj.EatOldPictireJiang.MODID;
 public class ModGroups {
 
     private static final ItemGroup ITEM_GROUP = FabricItemGroup.builder()
-            .icon(() -> new ItemStack(ItemRegistry.pictureJamFood))
+            .icon(() -> new ItemStack(ItemRegistry.PICTURE_JAM_FOOD))
             .displayName(Text.translatable("itemGroup.eopj.main_group"))
             .build();
 
     private static final RegistryKey<ItemGroup> MOD_GROUPS = RegistryKey.of(RegistryKeys.ITEM_GROUP, new Identifier(MODID,"main_group"));
     public static void regGroup(){
         ItemGroupEvents.modifyEntriesEvent(MOD_GROUPS).register(content -> {
-            content.add(ItemRegistry.pictureJamFood);
+            content.add(ItemRegistry.PICTURE_JAM_FOOD);
+            content.add(ItemRegistry.NORS_FOOD);
+            content.add(ItemRegistry.RESERVED_FOOD);
+            content.add(ItemRegistry.GAME_WATER_GU);
+            content.add(ItemRegistry.NORTHEAST_SHOVEL);
+            content.add(ItemRegistry.TUJAM_BLOCK);
+            content.add(ItemRegistry.TWISTED_TUJAM_BLOCK);
+            content.add(ItemRegistry.ASTONISHED_TUJAM_BLOCK);
+            content.add(ItemRegistry.FORTUNE_CAT_SPAWN_EGG);
+            content.add(ItemRegistry.NOR_SPAWN_EGG);
+            content.add(ItemRegistry.TU_JANG_SPAWN_EGG);
+            content.add(ItemRegistry.GW_SPAWN_EGG);
         });
     }
     public static void register(){
