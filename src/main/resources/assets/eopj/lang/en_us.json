@@ -1,0 +1,19 @@
+{
+  "itemGroup.eopj.main_group" : "I Wanna Rat TUJANG",
+  "tooltip.eopj.introduction" : "Press SHIFT To See Tooltips",
+  "item.eopj.picture_jang_food" : "TUJANG",
+  "item.eopj.nors_food" : "Uncle Nor's Pastry",
+  "item.eopj.reserved_food" : "Reserved Food",
+  "item.eopj.gamewater_gu" : "Flammulina Enoki",
+  "item.eopj.northeast_shovel" : "Iron Shovel From Northeast",
+  "tooltip.eopj.northeast_shovel.introduction.1" : "Hit On Monsters' Head!",
+  "item.eopj.fortune_cat_spawn_egg" : "Fortune Cat Spawn Egg",
+  "item.eopj.nor_spawn_egg" : "Uncle Nor Spawn Egg",
+  "item.eopj.tu_jang_spawn_egg" : "TUJANG Spawn Egg",
+  "item.eopj.gw_spawn_egg" : "GW Spawn Egg",
+
+
+  "block.eopj.tujang_block" : "TUJANG Block",
+  "block.eopj.twisted_tujang_block" : "Twisted TUJANG Block",
+  "block.eopj.astonished_tujang_block" : "Mouth Opened TUJANG Block"
+}

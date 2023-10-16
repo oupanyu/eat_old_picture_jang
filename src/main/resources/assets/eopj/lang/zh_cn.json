@@ -1,0 +1,19 @@
+{
+  "itemGroup.eopj.main_group" : "我要吃图酱!",
+  "tooltip.eopj.introduction" : "按Shift查看介绍",
+  "item.eopj.picture_jang_food" : "图酱",
+  "item.eopj.nors_food" : "nor叔的炊饼",
+  "item.eopj.reserved_food" : "储备粮",
+  "item.eopj.gamewater_gu" : "金针菇",
+  "item.eopj.northeast_shovel" : "东北大铁锹",
+  "tooltip.eopj.northeast_shovel.introduction.1" : "砸怪物有惊喜!",
+  "item.eopj.fortune_cat_spawn_egg" : "招财猫刷怪蛋",
+  "item.eopj.nor_spawn_egg" : "Nor叔刷怪蛋",
+  "item.eopj.tu_jang_spawn_egg" : "图酱刷怪蛋",
+  "item.eopj.gw_spawn_egg" : "GW刷怪蛋",
+
+
+  "block.eopj.tujang_block" : "图酱块",
+  "block.eopj.twisted_tujang_block" : "扭曲的图酱块",
+  "block.eopj.astonished_tujang_block" : "张嘴的图酱块"
+}
