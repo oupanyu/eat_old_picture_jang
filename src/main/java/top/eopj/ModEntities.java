@@ -6,13 +6,11 @@ import net.minecraft.entity.EntityDimensions;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.SpawnGroup;
 import net.minecraft.entity.attribute.EntityAttributes;
+import net.minecraft.entity.mob.IllagerEntity;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
-import top.eopj.common.entity.FortuneCat;
-import top.eopj.common.entity.GameWaterEntity;
-import top.eopj.common.entity.NorEntity;
-import top.eopj.common.entity.TuJangEntity;
+import top.eopj.common.entity.*;
 
 import static top.eopj.EatOldPictireJiang.MODID;
 
@@ -28,6 +26,8 @@ public class ModEntities {
             new Identifier(MODID, "tu_jang"),
             FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, TuJangEntity::new).dimensions(EntityDimensions.fixed(1f, 2f)).build()
     );
+
+
 
     public static final EntityType<NorEntity> NOR_ENTITY_TYPE = Registry.register(
             Registries.ENTITY_TYPE,
@@ -67,6 +67,6 @@ public class ModEntities {
                         .add(EntityAttributes.GENERIC_MOVEMENT_SPEED,0.3)
                 .add(EntityAttributes.GENERIC_ARMOR,3)
                 .build());
-
+        
     }
 }

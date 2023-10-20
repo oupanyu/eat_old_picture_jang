@@ -12,6 +12,11 @@
   "item.eopj.tu_jang_spawn_egg" : "TUJANG Spawn Egg",
   "item.eopj.gw_spawn_egg" : "GW Spawn Egg",
 
+  "entity.eopj.fortune_cat" : "Fortune Cat",
+
+  "tntity.eopj.tu_jang" : "Tu Jang",
+  "entity.eopj.nor" : "Uncle Nor",
+  "entity.eopj.game_water" : "GW",
 
   "block.eopj.tujang_block" : "TUJANG Block",
   "block.eopj.twisted_tujang_block" : "Twisted TUJANG Block",

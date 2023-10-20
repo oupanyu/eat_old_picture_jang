@@ -12,6 +12,11 @@
   "item.eopj.tu_jang_spawn_egg" : "图酱刷怪蛋",
   "item.eopj.gw_spawn_egg" : "GW刷怪蛋",
 
+  "entity.eopj.fortune_cat" : "招财猫",
+
+  "entity.eopj.tu_jang" : "图酱",
+  "entity.eopj.nor" : "nor叔",
+  "entity.eopj.game_water" : "GW",
 
   "block.eopj.tujang_block" : "图酱块",
   "block.eopj.twisted_tujang_block" : "扭曲的图酱块",

@@ -13,6 +13,7 @@ public class EatOldPictireJiang implements ModInitializer {
         BlockRegistry.register();
         ModGroups.register();
         ModEntities.register();
+        ModEntitiesSpawn.addEntitySpawn();
     }
 
 
