@@ -3,8 +3,8 @@ package top.eopj.common.entity;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.ai.goal.*;
-import net.minecraft.entity.mob.MobEntity;
 import net.minecraft.entity.mob.PathAwareEntity;
+import net.minecraft.entity.passive.IronGolemEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.world.World;
 
@@ -23,6 +23,8 @@ public class TuJangEntity extends AbstractModHumanEntity {
         this.goalSelector.add(7, new WanderAroundFarGoal(this, 1.0));
         this.goalSelector.add(1, new FleeEntityGoal<>(this, NorEntity.class,6.0f, 1.0, 1.2));
 
+
+        this.targetSelector.add(6, new ActiveTargetGoal<>(this, IronGolemEntity.class, true));
         this.targetSelector.add(2, new ActiveTargetGoal<>(this, FortuneCat.class, true));
     }
 
@@ -35,7 +37,10 @@ public class TuJangEntity extends AbstractModHumanEntity {
                 target.setOnFireFor(2 * (int)f);
             }
         }
+
         return bl;
     }
+
+    
 
 }

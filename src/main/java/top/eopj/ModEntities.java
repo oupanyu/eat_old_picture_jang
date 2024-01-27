@@ -6,11 +6,13 @@ import net.minecraft.entity.EntityDimensions;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.SpawnGroup;
 import net.minecraft.entity.attribute.EntityAttributes;
-import net.minecraft.entity.mob.IllagerEntity;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
-import top.eopj.common.entity.*;
+import top.eopj.common.entity.FortuneCat;
+import top.eopj.common.entity.GameWaterEntity;
+import top.eopj.common.entity.NorEntity;
+import top.eopj.common.entity.TuJangEntity;
 
 import static top.eopj.EatOldPictireJiang.MODID;
 

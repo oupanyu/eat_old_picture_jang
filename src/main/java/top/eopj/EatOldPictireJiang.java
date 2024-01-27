@@ -1,19 +1,22 @@
 package top.eopj;
 
 import net.fabricmc.api.ModInitializer;
-import top.eopj.common.block.BlockRegistry;
-import top.eopj.common.items.ItemRegistry;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class EatOldPictireJiang implements ModInitializer {
     public static final String MODID = "eopj";
-
+    public static final Logger LOGGER = LoggerFactory.getLogger(MODID);
     @Override
     public void onInitialize() {
-        ItemRegistry.register();
-        BlockRegistry.register();
+        ModItems.register();
+        ModBlocks.register();
         ModGroups.register();
         ModEntities.register();
         ModEntitiesSpawn.addEntitySpawn();
+        ModNetworkConstants.register();
+        ModWorld.register();
+        ModScreenHandler.register();
     }
 
 

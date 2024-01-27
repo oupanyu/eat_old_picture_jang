@@ -2,9 +2,8 @@ package top.eopj.client.entity.model;
 
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Iterables;
-import net.minecraft.client.model.*;
+import net.minecraft.client.model.ModelPart;
 import net.minecraft.client.render.RenderLayer;
-import net.minecraft.client.render.VertexConsumer;
 import net.minecraft.client.render.entity.model.BipedEntityModel;
 import net.minecraft.client.render.entity.model.EntityModelPartNames;
 import net.minecraft.client.util.math.MatrixStack;
@@ -12,9 +11,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.util.Arm;
-import net.minecraft.util.math.random.Random;
 import top.eopj.common.entity.AbstractModHumanEntity;
-import top.eopj.common.entity.TuJangEntity;
 
 import java.util.List;
 
@@ -79,15 +76,15 @@ public class HumanEntityModel<T extends AbstractModHumanEntity> extends BipedEnt
         this.leftSleeve.copyTransform(this.leftArm);
         this.rightSleeve.copyTransform(this.rightArm);
         this.jacket.copyTransform(this.body);
-        if (((LivingEntity)livingEntity).getEquippedStack(EquipmentSlot.CHEST).isEmpty()) {
-            if (((Entity)livingEntity).isInSneakingPose()) {
+        if (((LivingEntity) livingEntity).getEquippedStack(EquipmentSlot.CHEST).isEmpty()) {
+            if (((Entity) livingEntity).isInSneakingPose()) {
                 this.cloak.pivotZ = 1.4f;
                 this.cloak.pivotY = 1.85f;
             } else {
                 this.cloak.pivotZ = 0.0f;
                 this.cloak.pivotY = 0.0f;
             }
-        } else if (((Entity)livingEntity).isInSneakingPose()) {
+        } else if (((Entity) livingEntity).isInSneakingPose()) {
             this.cloak.pivotZ = 0.3f;
             this.cloak.pivotY = 0.8f;
         } else {
@@ -112,7 +109,7 @@ public class HumanEntityModel<T extends AbstractModHumanEntity> extends BipedEnt
     public void setArmAngle(Arm arm, MatrixStack matrices) {
         ModelPart modelPart = this.getArm(arm);
         if (this.thinArms) {
-            float f = 0.5f * (float)(arm == Arm.RIGHT ? 1 : -1);
+            float f = 0.5f * (float) (arm == Arm.RIGHT ? 1 : -1);
             modelPart.pivotX += f;
             modelPart.rotate(matrices);
             modelPart.pivotX -= f;

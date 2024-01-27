@@ -11,7 +11,7 @@ import top.eopj.common.entity.GameWaterEntity;
 
 public class GWEntityRender extends MobEntityRenderer<GameWaterEntity, HumanEntityModel<GameWaterEntity>> {
     public GWEntityRender(EntityRendererFactory.Context context) {
-        super(context,new HumanEntityModel<>(context.getPart(EntityModelLayers.PLAYER)), 0.5f);
+        super(context, new HumanEntityModel<>(context.getPart(EntityModelLayers.PLAYER)), 0.5f);
         this.addFeature(new HeldItemFeatureRenderer<>(this, context.getHeldItemRenderer()));
 
     }

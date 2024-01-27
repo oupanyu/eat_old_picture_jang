@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "eopj",
   "version": "${version}",
-  "name": "EatOldPictireJiang",
+  "name": "EatOldPictureJang",
   "description": "我要吃图酱，快点，给我吃，我要！移植自B站幽蓝TV的基岩版addon By B站皮宇轩",
   "authors": ["B站皮宇轩"],
   "contact": {
@@ -12,6 +12,9 @@
   "icon": "assets/eopj/icon.png",
   "environment": "*",
   "entrypoints": {
+    "fabric-datagen": [
+      "top.eopj.generator.ModDataGenerator"
+    ],
     "client": [
       "top.eopj.client.EatOldPictireJiangClient"
     ],
@@ -26,6 +29,9 @@
     "fabric-api": "*",
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
-    "minecraft": "${minecraft_version}"
+    "minecraft": "${minecraft_version}",
+    "cloth_config":"*"
+  },"recommends": {
+  "patchouli" : "*"
   }
 }

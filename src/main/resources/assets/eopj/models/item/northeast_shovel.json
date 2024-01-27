@@ -2,5 +2,35 @@
   "parent": "minecraft:item/generated",
   "textures": {
     "layer0": "eopj:item/old_jang"
+  },    "display": {
+  "thirdperson_lefthand": {
+    "rotation": [ 0, 90, 0 ],
+    "translation": [ 0, 5, 5 ],
+    "scale":[ 5, 5, 5]
+  },
+  "thirdperson_righthand": {
+    "rotation": [ 90, 90, 0 ],
+    "translation": [ 0, 5, 5 ],
+    "scale":[ 5, 5, 5]
+  },
+  "firstperson_righthand": {
+    "rotation": [ 0, 90, 0 ],
+    "translation": [ 0, 5, 5 ],
+    "scale":[ 5, 5, 5]
+  },
+  "firstperson_lefthand": {
+    "rotation": [ 180, 90, 90 ],
+    "translation": [ 0, 5, 5 ],
+    "scale":[ 5, 5, 5]
+  },
+  "gui": {
+    "scale":[ 5, 5, 5]
+  },
+  "ground": {
+    "rotation": [ 0, 90, 0 ],
+    "translation": [ 0, 1, -3 ],
+    "scale":[ 5, 5, 5]
   }
+}
+
 }

@@ -1,16 +1,11 @@
 package top.eopj.client.entity.render;
 
-import net.minecraft.client.network.AbstractClientPlayerEntity;
 import net.minecraft.client.render.VertexConsumerProvider;
 import net.minecraft.client.render.entity.EntityRendererFactory;
 import net.minecraft.client.render.entity.MobEntityRenderer;
-import net.minecraft.client.render.entity.PlayerEntityRenderer;
-import net.minecraft.client.render.entity.PlayerModelPart;
 import net.minecraft.client.render.entity.feature.HeldItemFeatureRenderer;
-import net.minecraft.client.render.entity.feature.PlayerHeldItemFeatureRenderer;
 import net.minecraft.client.render.entity.model.BipedEntityModel;
 import net.minecraft.client.render.entity.model.EntityModelLayers;
-import net.minecraft.client.render.entity.model.PlayerEntityModel;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.item.CrossbowItem;
 import net.minecraft.item.ItemStack;
@@ -23,7 +18,6 @@ import top.eopj.EatOldPictireJiang;
 import top.eopj.client.entity.model.HumanEntityModel;
 import top.eopj.common.entity.AbstractModHumanEntity;
 import top.eopj.common.entity.NorEntity;
-import top.eopj.common.entity.TuJangEntity;
 
 public class NorEntityRender extends MobEntityRenderer<NorEntity, HumanEntityModel<NorEntity>> {
     public NorEntityRender(EntityRendererFactory.Context ctx) {

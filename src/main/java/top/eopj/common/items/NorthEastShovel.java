@@ -1,8 +1,6 @@
 package top.eopj.common.items;
 
-import net.minecraft.client.Keyboard;
 import net.minecraft.client.gui.screen.Screen;
-import net.minecraft.client.input.KeyboardInput;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.ai.goal.ActiveTargetGoal;

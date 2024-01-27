@@ -3,7 +3,10 @@ package top.eopj.client;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.rendereregistry.v1.EntityRendererRegistry;
 import top.eopj.ModEntities;
-import top.eopj.client.entity.render.*;
+import top.eopj.client.entity.render.FortuneCatRender;
+import top.eopj.client.entity.render.GWEntityRender;
+import top.eopj.client.entity.render.NorEntityRender;
+import top.eopj.client.entity.render.TuJangEntityRender;
 
 public class EatOldPictireJiangClient implements ClientModInitializer {
 
@@ -14,6 +17,6 @@ public class EatOldPictireJiangClient implements ClientModInitializer {
         EntityRendererRegistry.INSTANCE.register(ModEntities.TU_JANG_ENTITY_TYPE, TuJangEntityRender::new);
         EntityRendererRegistry.INSTANCE.register(ModEntities.NOR_ENTITY_TYPE, NorEntityRender::new);
         EntityRendererRegistry.INSTANCE.register(ModEntities.GW_ENTITY_TYPE, GWEntityRender::new);
-
+        ScreenRegister.register();
     }
 }

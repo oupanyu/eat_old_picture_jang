@@ -1,11 +1,21 @@
 {
+  "eopj.gui.text.creativeindemnify.time": "Indemnification time：%s",
+  "eopj.widget.button.increase": "+",
+  "eopj.widget.button.decrease": "-",
+  "eopj.widget.button.confirm": "Confirm",
+  "eopj.message.gamemode.creative": "Indemnification Starts!Time Left：%s Second",
+  "eopj.message.already.creative": "You've Already Been Creative Mode!",
+
   "itemGroup.eopj.main_group" : "I Wanna Rat TUJANG",
   "tooltip.eopj.introduction" : "Press SHIFT To See Tooltips",
-  "item.eopj.picture_jang_food" : "TUJANG",
+  "item.eopj.picture_jang_food" : "Eatable TUJANG",
+  "item.eopj.tujang" : "TuJang",
+  "tooltip.eopj.tujang.introduction.1": "Right Click Towards Block To Summon A TuJang",
   "item.eopj.nors_food" : "Uncle Nor's Pastry",
   "item.eopj.reserved_food" : "Reserved Food",
   "item.eopj.gamewater_gu" : "Flammulina Enoki",
   "item.eopj.northeast_shovel" : "Iron Shovel From Northeast",
+  "item.eopj.creative_indemnification": "Indemnification Of Mr.Creative",
   "tooltip.eopj.northeast_shovel.introduction.1" : "Hit On Monsters' Head!",
   "item.eopj.fortune_cat_spawn_egg" : "Fortune Cat Spawn Egg",
   "item.eopj.nor_spawn_egg" : "Uncle Nor Spawn Egg",
@@ -14,11 +24,15 @@
 
   "entity.eopj.fortune_cat" : "Fortune Cat",
 
-  "tntity.eopj.tu_jang" : "Tu Jang",
+  "entity.eopj.tu_jang" : "Tu Jang",
   "entity.eopj.nor" : "Uncle Nor",
   "entity.eopj.game_water" : "GW",
 
   "block.eopj.tujang_block" : "TUJANG Block",
+  "block.eopj.tujang_ore" : "TUJANG Ore",
   "block.eopj.twisted_tujang_block" : "Twisted TUJANG Block",
-  "block.eopj.astonished_tujang_block" : "Mouth Opened TUJANG Block"
+  "block.eopj.astonished_tujang_block" : "Mouth Opened TUJANG Block",
+  "block.eopj.tujang_tnt" : "TUJANG's Instant Explosion TNT",
+  "tooltip.eopj.tujang_tnt.introduction.1" : "Right Click To Explode Instantly",
+  "tooltip.eopj.tujang_tnt.introduction.2" : "Too Powerful!Don't Use It Freely."
 }

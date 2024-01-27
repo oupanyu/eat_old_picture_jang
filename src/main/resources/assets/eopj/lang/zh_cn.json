@@ -1,11 +1,22 @@
 {
+  "eopj.gui.text.creativeindemnify.time": "理赔时长：%s",
+  "eopj.widget.button.increase": "+",
+  "eopj.widget.button.decrease": "-",
+  "eopj.widget.button.confirm": "确定",
+  "eopj.message.gamemode.creative": "理赔开始!理赔时间：%s秒",
+  "eopj.message.already.creative": "你本来就是创造模式，理赔个集贸嘞!",
+
+
   "itemGroup.eopj.main_group" : "我要吃图酱!",
   "tooltip.eopj.introduction" : "按Shift查看介绍",
-  "item.eopj.picture_jang_food" : "图酱",
+  "item.eopj.picture_jang_food" : "可以吃的图酱",
+  "item.eopj.tujang" : "图酱",
+  "tooltip.eopj.tujang.introduction.1": "右键生成图酱",
   "item.eopj.nors_food" : "nor叔的炊饼",
   "item.eopj.reserved_food" : "储备粮",
   "item.eopj.gamewater_gu" : "金针菇",
   "item.eopj.northeast_shovel" : "东北大铁锹",
+  "item.eopj.creative_indemnification": "创哥理赔",
   "tooltip.eopj.northeast_shovel.introduction.1" : "砸怪物有惊喜!",
   "item.eopj.fortune_cat_spawn_egg" : "招财猫刷怪蛋",
   "item.eopj.nor_spawn_egg" : "Nor叔刷怪蛋",
@@ -19,6 +30,10 @@
   "entity.eopj.game_water" : "GW",
 
   "block.eopj.tujang_block" : "图酱块",
+  "block.eopj.tujang_ore" : "图酱矿石",
   "block.eopj.twisted_tujang_block" : "扭曲的图酱块",
-  "block.eopj.astonished_tujang_block" : "张嘴的图酱块"
+  "block.eopj.astonished_tujang_block" : "张嘴的图酱块",
+  "block.eopj.tujang_tnt" : "图酱のTNT",
+  "tooltip.eopj.tujang_tnt.introduction.1" : "右键瞬间爆炸",
+  "tooltip.eopj.tujang_tnt.introduction.2" : "威力过大，请  随意使用"
 }
