@@ -29,9 +29,7 @@
     "fabric-api": "*",
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
-    "minecraft": "${minecraft_version}",
-    "cloth_config":"*"
-  },"recommends": {
-  "patchouli" : "*"
+    "patchouli" : "*",
+    "minecraft": "${minecraft_version}"
   }
 }

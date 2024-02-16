@@ -1,0 +1,12 @@
+{
+  "tujang_ambient": {
+    "sounds": [
+      "eopj:tujang/ambient2"
+    ]
+  },
+  "tujang_death": {
+  "sounds": [
+    "eopj:tujang/death"
+  ]
+}
+}

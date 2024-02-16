@@ -1,0 +1,12 @@
+{
+  "name": "图酱TNT",
+  "category": "eopj:cg_blocks",
+  "icon": "eopj:tujang_ore",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "eopj:tujang_tnt",
+      "text": "图酱TNT，右键引爆（对自己无伤）或使用红石信号引爆$(br2)激活后瞬间爆炸$(br2)P.S:瞬间爆炸是有意为之，并非不会制作(划掉)"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "  东北大铁锹",
+  "category": "eopj:cg_items",
+  "icon": "eopj:northeast_shovel",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "eopj:northeast_shovel",
+      "text": "$(br2)东北大铁锹。$(br2)攻击怪物可使怪物产生内讧（互相攻击）."
+    }
+  ]
+}

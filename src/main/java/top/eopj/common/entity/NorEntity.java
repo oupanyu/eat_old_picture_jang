@@ -30,6 +30,8 @@ public class NorEntity extends AbstractModHumanEntity{
                 target.setOnFireFor(2 * (int)f);
             }
         }
+
         return bl;
     }
+
 }

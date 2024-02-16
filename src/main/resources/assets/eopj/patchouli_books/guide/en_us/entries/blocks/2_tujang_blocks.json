@@ -1,0 +1,22 @@
+{
+  "name": "图酱方块及变种",
+  "category": "eopj:cg_blocks",
+  "icon": "eopj:tujang_block",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "eopj:tujang_block",
+      "text": "图酱块，没有实际功能。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "eopj:twisted_tujang_block",
+      "text": "扭曲图酱块，没有实际功能。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "eopj:astonished_tujang_block",
+      "text": "张嘴的图酱块，没有实际功能。"
+    }
+  ]
+}

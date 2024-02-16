@@ -1,0 +1,17 @@
+{
+  "name": "nor叔",
+  "category": "eopj:cg_entities",
+  "icon": "eopj:nor_spawn_egg",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "nor叔，不会攻击玩家，会主动攻击图酱。$(br2)击杀掉落炊饼。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "eopj:nor",
+      "rotate": true,
+      "text": "这是nor叔"
+    }
+  ]
+}

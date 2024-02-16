@@ -1,0 +1,18 @@
+{
+  "name": "图酱",
+  "category": "eopj:cg_items",
+  "icon": "eopj:tujang",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "eopj:tujang",
+      "text": "图酱。$(br2)右键地面生成图酱。"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "eopj:tujang_ore",
+      "recipe2": "eopj:tujang",
+      "text": "合成配方$(br2)熔炼图酱矿石获得。"
+    }
+  ]
+}

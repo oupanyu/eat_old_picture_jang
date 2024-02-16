@@ -1,0 +1,27 @@
+{
+  "name": "食物",
+  "category": "eopj:cg_items",
+  "icon": "eopj:nors_food",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "eopj:picture_jang_food",
+      "text": "图酱。$(br2)食用后回复10点饱食度，给予1分钟夜视、急迫、生命回复、跳跃提升，增益等级为二级。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "eopj:reserved_food",
+      "text": "图酱的储备粮。$(br2)食用后回复7点饱食度。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "eopj:gamewater_gu",
+      "text": "金针菇（其实是GW菇）。$(br2)食用后回复7点饱食度，给予2.5秒隐身效果，增益等级为二级。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "eopj:nors_food",
+      "text": "nor叔的炊饼。$(br2)食用后回复9点饱食度。"
+    }
+  ]
+}

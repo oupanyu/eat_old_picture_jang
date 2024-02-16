@@ -6,7 +6,10 @@ import net.minecraft.entity.ai.goal.*;
 import net.minecraft.entity.mob.PathAwareEntity;
 import net.minecraft.entity.passive.IronGolemEntity;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.sound.SoundEvent;
 import net.minecraft.world.World;
+import org.jetbrains.annotations.Nullable;
+import top.eopj.ModSoundEvent;
 
 public class TuJangEntity extends AbstractModHumanEntity {
 
@@ -41,6 +44,15 @@ public class TuJangEntity extends AbstractModHumanEntity {
         return bl;
     }
 
-    
+    @Nullable
+    @Override
+    protected SoundEvent getAmbientSound() {
+        return ModSoundEvent.MOB_TUJANG_SAYING;
+    }
 
+    @Nullable
+    @Override
+    protected SoundEvent getDeathSound() {
+        return ModSoundEvent.MOB_TUJANG_DEATH;
+    }
 }

@@ -1,0 +1,18 @@
+{
+  "name": "招财猫",
+  "category": "eopj:cg_entities",
+  "icon": "eopj:fortune_cat_spawn_egg",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "招财猫。$(br2)只是招财猫。$(br2)什么都不会掉落。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "eopj:fortune_cat",
+      "rotate": true,
+      "scale": 0.9,
+      "text": "这是招财猫"
+    }
+  ]
+}

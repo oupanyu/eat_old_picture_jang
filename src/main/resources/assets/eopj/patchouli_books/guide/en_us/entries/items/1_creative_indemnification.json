@@ -1,0 +1,12 @@
+{
+  "name": "创哥理赔",
+  "category": "eopj:cg_items",
+  "icon": "eopj:creative_indemnification",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "eopj:creative_indemnification",
+      "text": "创哥理赔。$(br2)右键打开GUI可指定理赔时间，在理赔时间内游戏模式自动切换到创造模式.$(br)理赔时间结束后恢复原游戏模式."
+    }
+  ]
+}

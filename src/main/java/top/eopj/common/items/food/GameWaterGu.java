@@ -13,4 +13,5 @@ public class GameWaterGu extends Item {
                 .statusEffect(new StatusEffectInstance(StatusEffects.INVISIBILITY, 50, 1), 1.0f)
                 .build()));
     }
+
 }

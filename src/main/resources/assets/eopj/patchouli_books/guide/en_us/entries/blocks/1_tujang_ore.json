@@ -1,0 +1,15 @@
+{
+  "name": "图酱矿石",
+  "category": "eopj:cg_blocks",
+  "icon": "eopj:tujang_ore",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "在主世界Y-32~Y60随机生成。任何挖掘等级的镐子都可挖掘。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["eopj:textures/patchouli/tujang_ore.png"]
+    }
+  ]
+}

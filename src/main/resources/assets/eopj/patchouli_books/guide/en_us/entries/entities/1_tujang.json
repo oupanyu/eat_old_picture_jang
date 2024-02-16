@@ -1,0 +1,17 @@
+{
+  "name": "图酱",
+  "category": "eopj:cg_entities",
+  "icon": "eopj:tu_jang_spawn_egg",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "图酱，不会攻击玩家.$(br2)会远离nor叔，会攻击招财猫.$(br2)会主动攻击铁傀儡(《我，铁傀儡，势不两立!》)$(br2)击杀掉落储备粮，可以吃的图酱，小概率掉落东北大铁锹"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "eopj:tu_jang",
+      "rotate": true,
+      "text": "这是OLD_PICTURE_JANG"
+    }
+  ]
+}

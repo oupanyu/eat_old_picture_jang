@@ -1,0 +1,17 @@
+{
+  "name": "前言",
+  "icon": "minecraft:writable_book",
+  "category": "eopj:cg_introduction",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "作者的话:$(br2)其实一开始只是想把幽蓝TV的吃图酱mod移植的到Java版的，结果越移植越偏，最后做成了这样的四不像(┬┬﹏┬┬)$(br2)如果被图酱选作素材，算是莫大的荣幸了。"
+    },
+    {
+      "type": "patchouli:link",
+      "url": "https://github.com/oupanyu/eat_old_picture_jang",
+      "link_text": "前往GitHub页面",
+      "text": "总之，感谢游玩本模组！$(br2)如果有什么Bug或更好的建议，欢迎在GitHub提交你的Issue！"
+    }
+  ]
+}

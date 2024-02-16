@@ -1,0 +1,17 @@
+{
+  "name": "GW漫游大作战",
+  "category": "eopj:cg_entities",
+  "icon": "eopj:gw_spawn_egg",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "GW。$(br2)只是GW漫游大作战。$(br2)击杀掉落金针菇."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "eopj:game_water",
+      "rotate": true,
+      "text": "这是GW"
+    }
+  ]
+}

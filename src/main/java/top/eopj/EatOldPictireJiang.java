@@ -16,6 +16,7 @@ public class EatOldPictireJiang implements ModInitializer {
         ModEntitiesSpawn.addEntitySpawn();
         ModNetworkConstants.register();
         ModWorld.register();
+        ModSoundEvent.register();
         ModScreenHandler.register();
     }
 
