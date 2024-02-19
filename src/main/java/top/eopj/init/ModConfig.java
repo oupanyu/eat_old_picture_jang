@@ -1,4 +1,4 @@
-package top.eopj;
+package top.eopj.init;
 
 public class ModConfig {
 

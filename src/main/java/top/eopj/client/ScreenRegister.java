@@ -1,8 +1,8 @@
 package top.eopj.client;
 
 import net.fabricmc.fabric.api.client.screenhandler.v1.ScreenRegistry;
-import top.eopj.ModScreenHandler;
 import top.eopj.client.screen.MrCreativesIndemnifyScreen;
+import top.eopj.init.ModScreenHandler;
 
 public class ScreenRegister {
     public static void register() {

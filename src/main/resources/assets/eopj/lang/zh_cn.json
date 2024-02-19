@@ -35,5 +35,10 @@
   "block.eopj.astonished_tujang_block" : "张嘴的图酱块",
   "block.eopj.tujang_tnt" : "图酱のTNT",
   "tooltip.eopj.tujang_tnt.introduction.1" : "右键瞬间爆炸",
-  "tooltip.eopj.tujang_tnt.introduction.2" : "威力过大，请  随意使用"
+  "tooltip.eopj.tujang_tnt.introduction.2" : "威力过大，请  随意使用",
+
+  "config.eopj": "模组设定",
+  "config.eopj.replace.background.enabled": "启用主界面背景覆盖",
+  "config.eopj.tip.replace.background.enabled": "不稳定，需要重启客户端"
+
 }

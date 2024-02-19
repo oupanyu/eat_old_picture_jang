@@ -34,5 +34,9 @@
   "block.eopj.astonished_tujang_block" : "Mouth Opened TUJANG Block",
   "block.eopj.tujang_tnt" : "TUJANG's Instant Explosion TNT",
   "tooltip.eopj.tujang_tnt.introduction.1" : "Right Click To Explode Instantly",
-  "tooltip.eopj.tujang_tnt.introduction.2" : "Too Powerful!Don't Use It Freely."
+  "tooltip.eopj.tujang_tnt.introduction.2" : "Too Powerful!Don't Use It Freely.",
+
+  "config.eopj": "Mod Config",
+  "config.eopj.replace.background.enabled": "Enable Background Image Replacement",
+  "config.eopj.tip.replace.background.enabled": "Not Stable,need to restart"
 }

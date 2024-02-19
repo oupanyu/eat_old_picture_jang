@@ -1,4 +1,4 @@
-package top.eopj;
+package top.eopj.init;
 
 import net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking;
 import net.minecraft.util.Identifier;

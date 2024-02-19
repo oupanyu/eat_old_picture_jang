@@ -9,7 +9,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
-import top.eopj.ModSoundEvent;
+import top.eopj.init.ModSoundEvent;
 
 public class TuJangEntity extends AbstractModHumanEntity {
 

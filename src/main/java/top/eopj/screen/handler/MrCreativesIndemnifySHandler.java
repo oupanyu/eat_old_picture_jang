@@ -5,7 +5,7 @@ import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.item.ItemStack;
 import net.minecraft.screen.ScreenHandler;
 import net.minecraft.screen.slot.Slot;
-import top.eopj.ModScreenHandler;
+import top.eopj.init.ModScreenHandler;
 
 public class MrCreativesIndemnifySHandler extends ScreenHandler {
 

@@ -8,5 +8,10 @@
   "sounds": [
     "eopj:tujang/death"
   ]
+},
+  "nor_attack_tu": {
+  "sounds": [
+    "eopj:nor/attack_tu"
+  ]
 }
 }

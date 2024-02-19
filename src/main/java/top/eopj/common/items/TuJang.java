@@ -19,7 +19,7 @@ import net.minecraft.util.math.Direction;
 import net.minecraft.world.World;
 import net.minecraft.world.event.GameEvent;
 import org.jetbrains.annotations.Nullable;
-import top.eopj.ModEntities;
+import top.eopj.init.ModEntities;
 
 import java.util.List;
 import java.util.Objects;

@@ -1,4 +1,4 @@
-package top.eopj;
+package top.eopj.init;
 
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;

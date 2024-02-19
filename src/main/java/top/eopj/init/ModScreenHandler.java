@@ -1,4 +1,4 @@
-package top.eopj;
+package top.eopj.init;
 
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;

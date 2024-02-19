@@ -10,7 +10,7 @@ import net.minecraft.client.gui.widget.TextWidget;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.network.PacketByteBuf;
 import net.minecraft.text.Text;
-import top.eopj.ModNetworkConstants;
+import top.eopj.init.ModNetworkConstants;
 import top.eopj.screen.handler.MrCreativesIndemnifySHandler;
 
 public class MrCreativesIndemnifyScreen extends HandledScreen<MrCreativesIndemnifySHandler> {

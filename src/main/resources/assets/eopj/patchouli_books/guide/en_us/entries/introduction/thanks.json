@@ -1,0 +1,17 @@
+{
+  "name": "鸣谢",
+  "icon": "minecraft:writable_book",
+  "category": "eopj:cg_introduction",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "鸣谢人员：$(br2)原想法提供者：幽蓝TV$(br2)1.16.5版本开发者：帝(QQ群)$(br2)另一位1.20.1开发者：Minecraft_FOX(QQ群)"
+    },
+    {
+      "type": "patchouli:link",
+      "url": "https://github.com/oupanyu/eat_old_picture_jang",
+      "link_text": "GitHub",
+      "text": "如果有什么Bug或更好的建议，请在GitHub提交你Issue"
+    }
+  ]
+}

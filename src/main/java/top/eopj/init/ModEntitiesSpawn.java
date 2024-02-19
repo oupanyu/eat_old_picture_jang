@@ -1,4 +1,4 @@
-package top.eopj;
+package top.eopj.init;
 
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
@@ -11,7 +11,7 @@ import top.eopj.common.entity.TuJangEntity;
 public class ModEntitiesSpawn {
     public static void addEntitySpawn(){
         BiomeModifications.addSpawn(
-                BiomeSelectors.excludeByKey(BiomeKeys.PLAINS,BiomeKeys.JUNGLE,BiomeKeys.BEACH,BiomeKeys.CHERRY_GROVE
+                BiomeSelectors.excludeByKey(BiomeKeys.PLAINS
                 ),
                 SpawnGroup.CREATURE,ModEntities.TU_JANG_ENTITY_TYPE,10,4,10);
 
@@ -19,7 +19,7 @@ public class ModEntitiesSpawn {
                 Heightmap.Type.MOTION_BLOCKING_NO_LEAVES,TuJangEntity::canMobSpawn);
 
         BiomeModifications.addSpawn(
-                BiomeSelectors.excludeByKey(BiomeKeys.PLAINS,BiomeKeys.JUNGLE,BiomeKeys.BEACH,BiomeKeys.CHERRY_GROVE
+                BiomeSelectors.excludeByKey(BiomeKeys.PLAINS
                 ),
                 SpawnGroup.CREATURE,ModEntities.NOR_ENTITY_TYPE,10,4,10);
 
@@ -27,7 +27,7 @@ public class ModEntitiesSpawn {
                 Heightmap.Type.MOTION_BLOCKING_NO_LEAVES,TuJangEntity::canMobSpawn);
 
         BiomeModifications.addSpawn(
-                BiomeSelectors.excludeByKey(BiomeKeys.PLAINS,BiomeKeys.JUNGLE,BiomeKeys.BEACH,BiomeKeys.CHERRY_GROVE
+                BiomeSelectors.excludeByKey(BiomeKeys.PLAINS
                 ),
                 SpawnGroup.CREATURE,ModEntities.GW_ENTITY_TYPE,10,4,10);
 

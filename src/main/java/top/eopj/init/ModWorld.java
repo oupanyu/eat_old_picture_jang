@@ -1,4 +1,4 @@
-package top.eopj;
+package top.eopj.init;
 
 import top.eopj.common.world.gen.CFRegister;
 import top.eopj.common.world.gen.FeatureRegister;

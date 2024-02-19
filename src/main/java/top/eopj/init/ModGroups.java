@@ -1,4 +1,4 @@
-package top.eopj;
+package top.eopj.init;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;

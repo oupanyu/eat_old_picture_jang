@@ -6,6 +6,7 @@ import net.minecraft.entity.ai.goal.*;
 import net.minecraft.entity.mob.PathAwareEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.world.World;
+import top.eopj.init.ModSoundEvent;
 
 public class NorEntity extends AbstractModHumanEntity{
     public NorEntity(EntityType<? extends PathAwareEntity> entityType, World world) {
@@ -30,7 +31,9 @@ public class NorEntity extends AbstractModHumanEntity{
                 target.setOnFireFor(2 * (int)f);
             }
         }
-
+        if (target instanceof TuJangEntity){
+            this.playSound(ModSoundEvent.MOB_NOR_ATTACK_TUJANG,0.2f,1.0f);
+        }
         return bl;
     }
 
